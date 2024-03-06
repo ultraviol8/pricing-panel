@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* APP.CSS */
+
+
+body{
+    background-color: #f1f3fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Montserrat,sans-serif;
+    
+}
+
+.pricing-panel-bg{
+    /* background-color: white; */
+    width: 90%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card{
+    margin: 1.66%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-img{
+    background-image: linear-gradient(to right, #d9d2e8, #fceceb, #fef8e6);
+    height: 30%;
+    width: 95%;
+    border-radius: 30px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#card-type{
+    font-weight: 900;
+}
+
+.card-pricing{
+    margin: 30px auto;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 700;
+    color: #373737;
+}
+
+.card-storage{
+    color: #50504E;
+    margin: 10px auto 40px auto;
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-terms{
+    background-color: white;
+    border: 1px solid #c2c2c2;
+    width: 60%;
+    height: 50px;
+    margin: none 40px;
+    border-radius: 30px;
+    color: #50504e;
+}
+
+#timeline{
+    margin-top: 170px;
+}
+
+.card-btn-bg{
+    flex:1;
+    border-radius: 8px 8px 20px 20px;
+    /* justify-self: end; */
+    width: 95%;
+    height:10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#subscription{
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 35px;
+    /* text-align: center; */
+}
